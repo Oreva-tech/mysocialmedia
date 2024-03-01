@@ -1,0 +1,168 @@
+*{
+    background-color: #181818; 
+    color: white;
+    font-size: "Inter", sans-serif;
+    
+    
+  
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 7%); 
+    padding: 10px 10px ;
+    box-sizing: border-box;
+    
+
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+    
+}
+
+#image{
+    border-radius: 100%;
+    width: 20vw;
+}
+
+h2{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 15px;
+    line-height: 3px;
+    font-family: "Inter", sans-serif;
+}
+
+#soft{
+    color: #ff8503;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#socl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+i{
+    background-color: #121212;
+    width: 50vw;
+    height: 9vh;
+    margin: 10px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    
+}
+
+
+i:hover{
+    background-color:#ff8503 ;
+}
+
+
+
+@media only screen and (max-width:667px){
+
+    *{
+        background-color: #121212;
+        
+        
+    }
+    #image{
+        border-radius: 100%;
+        width: vw;
+
+    }
+
+    h2{
+        font-size: 13px;
+    }
+
+
+    p{
+        font-size: 9.5px;
+        line-height: 0.1px;
+    }
+
+    i{
+        background-color: #ff8503;
+        width: 40vw;
+        height: 4vh;
+        margin: 4px;
+        margin-top: 7px;
+        border-radius: 1px;
+        padding:  0.1rem;
+
+    }
+
+    #soc1{
+
+        width: 10vw;
+        font-size: 20px;
+        
+    }
+
+    #soc{
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .maincontainer{
+        border-radius: 0.1rem;
+        border: ipx solid;
+        background-color: #181818;
+        
+    }
+    
+    .container{
+        width: 50vw;
+        
+        
+        
+    }
+
+   
+
+    .fa-brands{
+        
+        font-size: 0.3px;
+        
+    }
+
+  
+    
+}
