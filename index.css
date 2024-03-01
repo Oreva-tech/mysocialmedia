@@ -91,8 +91,37 @@ i:hover{
 }
 
 
-
 @media only screen and (max-width:667px){
+    h2{
+        font-size:11px;
+        margin: 0;
+        
+    }
+
+    p{
+        font-size: 9px;
+        line-height: 0.1px;
+    }
+
+    #image{
+        border-radius: 100%;
+    }
+
+    i{
+        height: 6vh;
+        width: 6vw;
+    }
+
+    #socl{
+        font-size: 20px;
+    }
+
+   
+}
+
+
+
+/* @media only screen and (max-width:667px){
 
     *{
         background-color: #121212;
@@ -165,4 +194,4 @@ i:hover{
 
   
     
-}
+} */
